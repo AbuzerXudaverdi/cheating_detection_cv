@@ -7,20 +7,11 @@ The `VideoHandler` class provides functionality to process a given video file, d
 - [Overview](#overview)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Methods](#methods)
-  - [process_video](#process_video)
-  - [check_sequence](#check_sequence)
-  - [get_subtitle](#get_subtitle)
-  - [download_csv](#download_csv)
-- [Example](#example)
-- [Notes](#notes)
-- [License](#license)
+
 
 ## Overview
 
-This class is designed to handle video input, process frames through an external `FrameHandler` object, and detect segments of interest based on pose estimations or other criteria. Once processed, the results can be exported to a CSV file or represented as subtitles for convenient review.
+This class is designed to handle video input, process frames through an external `FrameHandler` object, and detect segments of interest based on pose estimations or other criteria. Once processed, the results can be exported to a CSV file or represented as subtitles for convenient review. It's developed to estimate head poses and track eye gaze to detect cheating in online exams.
 
 ## Features
 
