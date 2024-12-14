@@ -11,7 +11,7 @@ The `VideoHandler` class provides functionality to process a given video file, d
 
 ## Overview
 
-This class is designed to handle video input, process frames through an external `FrameHandler` object, and detect segments of interest based on pose estimations or other criteria. Once processed, the results can be exported to a CSV file or represented as subtitles for convenient review. It's developed to estimate head poses and track eye gaze to detect cheating in online exams.
+This class is designed to handle video input, process frames through an external `FrameHandler` object, and detect segments of interest based on pose estimations or other criteria. Once processed, the results can be exported to a CSV file or represented as subtitles for convenient review. It's developed to estimate head poses and track eye gaze to detect cheating in online exams by using several python libraries, such as mediapipe, opencv, pandas, etc.
 
 ## Features
 
